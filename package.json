@@ -1,0 +1,20 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "js/scriptmy.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "dev": "nodemon js/scriptmy.js",
+    "start": "nodemon js/scriptmy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0",
+    "nodemon": "^2.0.15"
+  }
+}
